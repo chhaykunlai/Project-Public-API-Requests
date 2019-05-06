@@ -16,7 +16,7 @@ html, body {
 body {
     font-family: "Nunito", sans-serif;
     text-align: center;
-    background: rgba(235, 235, 235, 0.9);
+    background: rgba(162, 152, 152, 0.9);
 }
 
 header {
@@ -29,9 +29,10 @@ header {
 }
 
 header h1 {
-    font-size: 1.25em;
-    color: rgba(50, 50, 50, 0.9);
+    font-size: 1.5em;
+    color: rgba(125, 52, 52, 0.9);
     margin-top: 35px;
+    font-family: 'Anton', sans-serif;
 }
 
 .search-input {
@@ -62,6 +63,10 @@ header h1 {
     border: 1px solid rgba(50, 50, 50, 0.9);
 }
 
+.hide {
+    display: none !important;
+}
+
 
 /* ===================================== 
    Gallery
@@ -90,6 +95,7 @@ header h1 {
     background: rgba(245, 245, 245, 0.9);
     border-radius: 0.25em;
     border: 1px solid rgba(50, 50, 50, 0.3);
+    box-shadow: 2px 2px 2px 1px #8c8585;
     transition: .4s ease-out;
     overflow: hidden;
 }
